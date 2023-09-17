@@ -9,6 +9,18 @@
     "paths": {
         "contentPath": "content/"
     },
+	"mail": {
+    "transport": "SMTP",
+    "options": {
+      "service": "Google",
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "auth": {
+        "user": "ijdpcanada@gmail.com",
+        "pass": "qrgh ywab uzwb ntbo"
+      }
+    }
+  },
     "caching": {
 		"frontend": {
 			"maxAge": 600
